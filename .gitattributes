@@ -1,31 +1,32 @@
 * text=auto
 
-# Unity YAML / text assets - keep LF in repo
-*.unity text
-*.prefab text
-*.asset text
-*.meta text
-*.controller text
-*.anim text
-*.mat text
-*.mask text
-*.overrideController text
-*.physicMaterial text
-*.preset text
-*.spriteatlas text
-*.shadergraph text
-*.playable text
-*.signal text
-*.renderTexture text
-*.lighting text
-*.asmdef text
-*.json text
+# Unity YAML - use smart merge (UnityYAMLMerge) and keep LF in repo
+*.unity text merge=unityyamlmerge eol=lf
+*.prefab text merge=unityyamlmerge eol=lf
+*.asset text merge=unityyamlmerge eol=lf
+*.meta text eol=lf
+*.controller text merge=unityyamlmerge eol=lf
+*.anim text eol=lf
+*.mat text eol=lf
+*.mask text eol=lf
+*.overrideController text eol=lf
+*.physicMaterial text eol=lf
+*.preset text eol=lf
+*.spriteatlas text eol=lf
+*.shadergraph text eol=lf
+*.playable text eol=lf
+*.signal text eol=lf
+*.renderTexture text eol=lf
+*.lighting text eol=lf
+*.asmdef text eol=lf
+*.inputactions text eol=lf
+*.json text eol=lf
 
 # Code
-*.cs text
-*.shader text
-*.cginc text
-*.hlsl text
+*.cs text diff=csharp eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
 
 # Binary
 *.png binary
@@ -43,4 +44,3 @@
 *.otf binary
 *.fbx binary
 *.unitypackage binary
-

@@ -4,15 +4,17 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+[Bb]uilts/
 [Ll]ogs/
 [Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
 [Rr]ecordings/
 
-# Auto-generated IDE files
+# Generated solution / project files
+*.sln
+*.slnx
 *.csproj
 *.unityproj
-*.sln
 *.suo
 *.user
 *.userprefs
@@ -27,12 +29,11 @@
 .idea/
 .vscode/
 
-# OS junk
-.DS_Store
-Thumbs.db
-desktop.ini
+# Unity crash recovery (local only)
+/[Aa]ssets/_Recovery/
 
-# Exported/build artifacts
+# Local saves and builds
+save.json
 *.apk
 *.aab
 *.unitypackage
@@ -40,3 +41,7 @@ desktop.ini
 sysinfo.txt
 crashlytics-build.properties
 
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
