@@ -1,0 +1,46 @@
+* text=auto
+
+# Unity YAML / text assets - keep LF in repo
+*.unity text
+*.prefab text
+*.asset text
+*.meta text
+*.controller text
+*.anim text
+*.mat text
+*.mask text
+*.overrideController text
+*.physicMaterial text
+*.preset text
+*.spriteatlas text
+*.shadergraph text
+*.playable text
+*.signal text
+*.renderTexture text
+*.lighting text
+*.asmdef text
+*.json text
+
+# Code
+*.cs text
+*.shader text
+*.cginc text
+*.hlsl text
+
+# Binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.psd binary
+*.tga binary
+*.exr binary
+*.aseprite binary
+*.ase binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
+*.fbx binary
+*.unitypackage binary
+
